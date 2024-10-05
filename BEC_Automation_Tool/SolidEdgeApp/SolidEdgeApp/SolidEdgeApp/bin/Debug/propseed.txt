@@ -1,0 +1,353 @@
+\\ Solid Edge property seed file. 1-29-2000
+
+\\ The contents of this file populate lists on dialogs of the Properties command.
+
+\\ It is expected that you customize this file to meet your company's needs.
+\\ Content as delivered is provided for example.
+
+\\ You can put this file where convenient for you as long as you set the file 
+\\ location path within the Solid Edge options dialog.
+
+\\ ----------------------------------------------------------------------------------
+\\ Standard property section
+
+\\ You can customize lists for the following standard properties:
+\\ title, category, keyword, material, project name.
+
+\\ You can add an item to a list by entering a string of characters followed by a
+\\ semi colon. List items must be between the "begin" and "end" of each list.
+
+\\ You can set one of the list items as the default in the dialog control
+\\ by following the format
+\\ default=item;
+\\ where "item" is the item in the list you want to be the default.
+\\ This must be between the "begin" and "end" of the list.  Also note that this
+\\ default still must be 'accepted' by the users by clicking the 'OK' button
+\\ on the File Properties dialog when creating a new file.
+
+\\ Contents of title list
+Begin Title
+End Title
+
+\\ Contents of category list
+Begin Category
+STOCK;
+MAKE;
+DESIGN/MAKE;
+HARDWARE;
+FRAME PLATE;
+FRAME MOUNT;
+ENGINE;
+TRANSMISSION;
+HOOD;
+COVER;
+BRAKE;
+ELECTRICAL;
+HYDRAULIC;
+AIR;
+DRIVETRAIN;
+misc;	
+default=;
+End Category
+
+\\ Contents of keyword list
+Begin Keyword
+NUT;
+BOLT;
+WASHER;
+BUTTON HEAD;
+HEX;
+ALLAN;
+METRIC;
+FRAME PLATE;
+FRAME MOUNT;
+ENGINE;
+TRANSMISSION;
+HOOD;
+COVER;
+BRAKE;
+ELECTRICAL;
+SUSPENSION;
+SPRING;
+default=;
+End Keyword
+
+\\ Contents of material list
+Begin Material
+
+End Material
+
+\\ Contents of project name list
+Begin Author
+Mike
+Dipen
+End Author
+
+\\ Contents of project name list
+Begin Project
+PBOT STREETCAR / 31001384;
+CARTA 2017 IRV S/N: 18036-18037;
+RTARPOO14-16 SOUND TRANSIT (TACOMA LINK LRV);
+16027-SCV VALLEY METRO STREETCAR;
+RB9623 BUCHANAN 15 MAN PC;
+RB7302 CORONADO COAL 20 TON DIESEL LOCOMOTIVE, LH;
+RB91105 HARRISON COUNTY REPOWER, 25 TON;
+RB9311 FOUNDATION CUMBERLAND 18 MAN PC REBUILD;
+RB8304 CONTURA 13 MAN BATTERY PC REBUILD; 
+RB9305 ARCH COAL LEER 18 MAN PC REBUILD;
+RB8233 CONTURA 15 TON BATTERY LOCOMOTIVE;
+RB9686 TUNNEL RIDGE 30 TON DIESEL LOCOMOTIVE, RH;
+21008,10,12,14 CENTURY MINING, 30-TON LOCOMOTIVE,LH;
+21009,11,13,15 CENTURY MINING, 30-TON LOCOMOTIVE,RH;
+21016-23 CENTURY MINING, 18-MAN DIESEL PC;
+21024-29 CENTURY MINING, 8-MAN MAINT VEHICLE W/CRANE & INVERTER;
+20000-20001 STILLWATER STAGE 5 20-TON LOCOMOTIVE;
+19011 ARCH COAL, LEER 30 TON DIESEL LOCOMOTIVE, LH;
+19012 ARCH COAL, LEER 30 TON DIESEL LOCOMOTIVE, RH;
+19020-37 ARCH COAL, LEER 18 MAN DIESEL PC;
+19038 ARCH COAL, LEER 8 MAN MAINTENANCE VEHICLE;
+19039-42 ARCH COAL, LEER 8 MAN MAINTENANCE VEHICLE W/CRANE;
+19043 ARCH COAL, LEER 8 MAN MAINTENANCE VEHICLE W/CRANE & WELDER;
+19044 ARCH COAL, LEER 8 MAN MAINTENANCE VEHICLE W/CRANE & INVERTER;
+19045 ARCH COAL, LEER 8 MAN MAINTENANCE VEHICLE W/AIR COMPRESSOR;
+18025-18033 IRON ORE COMPANY OF CANADA;
+18019 CORONADO COAL 20 TON DIESEL LOCOMOTIVE, RH;
+18011-18018 MBTA;
+18009-10 WARRIOR MET 20 TON DIESEL LOCO, RH;
+18006 METRO NORTH LOCOMOTIVE REBUILD;
+18005 TUNNEL RIDGE 30 TON DIESEL LOCOMOTIVE, LH;
+16014-19 OKLAHOMA CITY STREETCAR;
+16007-10 MILWAUKEE STREETCAR;
+16001-16006 EL PASO CRRMA;
+15012-017 DETROIT M-2 RAIL MODERN STREETCAR;
+14025-14037 SFMTA PCC REHAB;
+14038-14040 MUNI PCC DOUBLE-ENDER;
+MTA STATEN ISLAND APU INSTALL;
+LIBERTY STREETCAR;
+BROOKVILLE EQUIPMENT CORP;
+default=;
+End Project
+
+
+\\ ----------------------------------------------------------------------------------
+\\ Custom property section
+
+\\ You can define custom properties by following the format
+\\ define name;type;
+\\ The string "define" must proceed each custom property name.
+\\ Name is the name of the custom property and can be any string of characters.
+\\ Type is one of the following: text, date, number, yes or no.
+\\ The delimiter is a semi colon.
+
+\\ Define custom properties
+Begin Define Custom
+define Material Used;text;
+define finish;text;
+define custom2;number;
+DEFAULT=Material Used;
+define matl spec; text;
+define UOM; text;
+End Define Custom
+
+\\ Contents of finish list
+Begin Finish
+gold;
+nickel;
+copper;
+default=nickel;
+End Finish
+
+\\ Contents of custom2 list
+Begin Custom2
+1;
+2;
+3;
+default=2;
+End Custom2
+
+\\ Contents of Material Used list
+Begin Material Used
+PURCHASED;
+PL10GAA606;
+PL10GAA569;
+PL10GASS;
+PL11GAA569;
+PL11GA304;
+PL12GAA569;
+PL12GAA606;
+PL12GA304;
+PL12GA304L;
+PL14GAA569;
+PL14GAA1011;
+PL14GAA1011P&O;
+PL14GAA606;
+PL16GAA1011;
+PL16GAA1011P&O;
+PL16GACR1008;
+PL16GAA606;
+PL16GA304;
+PL16GA304L;
+PL20GAA366;
+PL20GAA606; 
+PL3/16A588;
+PL3/16A572;
+PL3/16A242;
+PL3/16T1;
+PL3/16FLOOR;
+PL3/16304;
+PL1/4A588;
+PL1/4304;
+PL1/4A242;
+PL1/4A572;
+PL1/4FLOOR;
+PL3/8A588;
+PL3/8A242;
+PL3/8A36;
+PL3/8A572;
+PL1/2A588;
+PL1/2A36;
+PL1/2A242;
+PL1/2A572;
+PL5/8A588;
+PL5/8A36;
+PL5/8A572;
+PL5/8A242;
+PL3/4A588;
+PL3/4A36;
+PL3/4A242;
+PL3/4A572;
+PL3/41045;
+PL1A588;
+PL1A36;
+PL1A572;
+PL11045;
+PL11/4A588;
+PL11/4A36;
+PL11/4A572;
+PL11/2A588;
+PL11/2A36;
+PL11/2A572;
+PL2A588;
+PL2A36;
+PL21/2A36;
+PL3A588;
+PL3A36;
+PL31/2A36;
+PL3A572;
+PL4A588;
+PL4A36;
+PL4A572;
+PL5A36;
+PL6A36;
+PL.1905052-H32MF;
+C11000-1/4X11/2;
+C11000;
+11-15037, TUBING,EXHAUST 2" OD .065W;
+11-15013, TUBING,EXHAUST,2 1/2" OD .065 WALL;
+11-15024, TUBING,EXHAUST 3OD X .065W;
+11-15038, TUBING,EXHAUST 3 1/20D X .065W;
+11-15039, TUBING,EXHAUST 4OD X .065W;
+11-15040, TUBING,EXHAUST 5OD X .065W;
+GPO-3-1/8", RED GLASTIK INS BOARD, 1/8" THICK;
+SAHRTS1/4X2X2;
+SMHRTS.120X1, TUBING, SQUARE 1 X 1 X .125W HR;
+SMHRCH2-1/4X8;
+SMHRCH1-15/16X6;
+SMHRCH1-7/8X5;
+SMHRTR.083X1, TUBING, ROUND 1"OD X .083W HR;
+SMHRAN1/8X1X1;
+SMHRAN1/4X1X1;
+SMHRAN1/4X11/2X11/2;
+SMHRAN1/4X2X2;
+SMHRAN1/4X2X3;
+SMHRFL1/4X1;
+SMHRFL1/2X1;
+SMHRFL3/4X3;
+SMHRFL3/4X5;
+SMHRRD1/2;
+SMHRSQ1/2;
+3/4"-#9 48" X 96" EXP;
+19W4-1, GRATING, BAR, 1" X 3/16";
+19W-.750, GRATING, BAR, 3/4" X 3/16";
+PIPE,3/4",SCH 40;
+PIPE,3/8",SCH 40;
+13-19809;
+AMERICAN ASH, "FAS" GRADE;
+default=PURCHASED;
+End Material Used
+
+\\ Contents of matl spec list
+Begin MATL SPEC
+PURCHASED ;
+WELDMENT ;
+ASSEMBLY ;
+BONDED ASSEMBLY ;
+MODIFICATION ;
+STEEL, A36 (PLATE);
+STEEL, A36 (ANGLE);
+STEEL, A36 (CHANNEL);
+STEEL, A36 (TUBING);
+STEEL, A36 (BAR);
+STEEL, A242, GR 50 (PLATE);
+STEEL, A572 GR50 (PLATE);
+STEEL, A588 GR A/B (PLATE);
+STEEL, A500 GR C (TUBING);
+STEEL, A847 ;
+STEEL, A1008 CQ, P&0 (14/16 GA A606);
+STEEL, A1008 CR (14/16 GA A606); 
+STEEL, A1011 CS TYPE B HR (569);
+STEEL, A109 (AISI A1008 PLATE);
+STEEL, A514 GR E (T1);
+STEEL, A606 (PLATE);
+STEEL, A4140 q & T, 269-321 BHN;
+STEEL, MT 1010, A513, TYPE 5 (TUBE THIN);
+STEEL, BLACK, A53 B (SCH PIPE);
+COPPER, B187, ALLOY 110, 1/2 HARD (FLAT);
+COPPER, ASTM B75 (TUBING);
+ALUMINUM, ASTM B209, 5052-H32 (PLATE);
+ALUMINUM, ASTM B209, 6061-T6 (PLATE);
+ALUMINUM, ASTM B221, 6061-T6 (TUBING);
+ALUMINUM, ASTM B221, 6061-T6 (ANGLE);
+ALUMINUM, ASTM B211, 6061-T651 (BAR);
+STAINLESS, A240 TYPE 304 ;
+ALL THREAD, 3/8-16, STEEL, A193, B7 PLAIN;
+ALL THREAD, 1/4-20, STEEL, A193, B7, PLAIN;
+End matl spec
+
+\\ Contents of UOM list
+Begin UOM
+BDL;
+BOX ;
+CSE;
+DR ;
+DOZEN (DZ) ;
+EA;
+FEET (FT) ;
+CUBIC FEET (FT3) ;
+GALLON (GL) ;
+HOURS (HRS) ;
+INCH (IN) ;
+POUNDS (LBS) ;
+LINEAR FEET (LNF) ;
+LINEAR YARD (LNY) ;
+MILLIMETER (MM) ;
+METER (M) ;
+OUNCES (OZ) ;
+PAGES (PGS) ;
+PIECE (PC) ;
+PACK (PK) ;
+PALE (PL) ;
+PINT (PT) ;
+QUART (QT) ;
+ROLL (RL) ;
+SET ;
+SHEET (SH) ;
+SQUARE FEET (SQF) ;
+SQUARE INCH (SQI) ;
+SQUARE METER (SQM) ;
+SQUARE YARD (SQY) ;
+End UOM
+
+
+
+
