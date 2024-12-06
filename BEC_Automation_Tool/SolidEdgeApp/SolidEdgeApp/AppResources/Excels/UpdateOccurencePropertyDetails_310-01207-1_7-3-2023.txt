@@ -1,8 +1,0 @@
-﻿********************3/7/2023 4:58:56 PM********************
-Update the Occurence Properties
-*************************************************************
-210-07111.psm:2		Material:PVC		IncludeInInterference:False		Path:C:\Users\sunnyc\Downloads\Test- Weldment assmebly\Test- Weldment assmebly\210-07111.psm
-210-07731.psm:1		Material:PVC		IncludeInInterference:False		Path:C:\Users\sunnyc\Downloads\Test- Weldment assmebly\Test- Weldment assmebly\210-07731.psm
-210-07731.psm:2		Material:PVC		IncludeInInterference:False		Path:C:\Users\sunnyc\Downloads\Test- Weldment assmebly\Test- Weldment assmebly\210-07731.psm
-
-
