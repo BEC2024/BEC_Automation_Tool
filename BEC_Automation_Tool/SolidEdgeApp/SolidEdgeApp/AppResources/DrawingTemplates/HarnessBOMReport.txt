@@ -1,0 +1,6 @@
+5,0,0,MS Sans Serif,-13,400,0,100,-1,0,-1,0,-1,0,
+100,1614,Component Name,,
+100,32939,Description,,
+100,32937,Type,,
+100,1002,Quantity,,
+100,32936,Unit of Measure,,
